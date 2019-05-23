@@ -1,0 +1,32 @@
+
+
+
+figure {
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+figcaption {
+  background: #4aaaa5;
+  transition: all 0.3s;
+  position: absolute;
+  left: 0px;
+  bottom: 30px;
+  width:87%;
+  color: #fff;
+  padding: 3%;
+  text-align: center;
+  bottom: -100px;
+
+}
+
+figure:hover figcaption {
+  bottom: 30px;
+}
+
+
+
+
